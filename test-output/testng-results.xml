@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-26T18:48:26 EST" name="Suite" finished-at="2024-02-26T18:48:53 EST" duration-ms="27101">
+    <groups>
+    </groups>
+    <test started-at="2024-02-26T18:48:26 EST" name="Test" finished-at="2024-02-26T18:48:53 EST" duration-ms="27101">
+      <class name="com.naveenautomation.tests.MyAccountPageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenautomation.tests.MyAccountPageTest@957e06]" started-at="2024-02-26T18:48:42 EST" name="launchBrowser" finished-at="2024-02-26T18:48:46 EST" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateAccountRegistrationTest()[pri:0, instance:com.naveenautomation.tests.MyAccountPageTest@957e06]" started-at="2024-02-26T18:48:46 EST" name="validateAccountRegistrationTest" finished-at="2024-02-26T18:48:47 EST" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAccountRegistrationTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenautomation.tests.MyAccountPageTest@957e06]" started-at="2024-02-26T18:48:47 EST" name="closeBrowser" finished-at="2024-02-26T18:48:48 EST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.naveenautomation.tests.MyAccountPageTest -->
+      <class name="com.naveenautomation.tests.ContactUsPageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenautomation.tests.ContactUsPageTest@169e6180]" started-at="2024-02-26T18:48:26 EST" name="launchBrowser" finished-at="2024-02-26T18:48:35 EST" duration-ms="8265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateContactBtnClickTest()[pri:0, instance:com.naveenautomation.tests.ContactUsPageTest@169e6180]" started-at="2024-02-26T18:48:35 EST" name="validateContactBtnClickTest" finished-at="2024-02-26T18:48:35 EST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactBtnClickTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenautomation.tests.ContactUsPageTest@169e6180]" started-at="2024-02-26T18:48:35 EST" name="closeBrowser" finished-at="2024-02-26T18:48:35 EST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenautomation.tests.ContactUsPageTest@169e6180]" started-at="2024-02-26T18:48:35 EST" name="launchBrowser" finished-at="2024-02-26T18:48:41 EST" duration-ms="5281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateSubmitContactDetails()[pri:0, instance:com.naveenautomation.tests.ContactUsPageTest@169e6180]" started-at="2024-02-26T18:48:41 EST" name="validateSubmitContactDetails" finished-at="2024-02-26T18:48:42 EST" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubmitContactDetails -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenautomation.tests.ContactUsPageTest@169e6180]" started-at="2024-02-26T18:48:42 EST" name="closeBrowser" finished-at="2024-02-26T18:48:42 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.naveenautomation.tests.ContactUsPageTest -->
+      <class name="com.naveenautomation.tests.GiftCertificatePageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenautomation.tests.GiftCertificatePageTest@550dbc7a]" started-at="2024-02-26T18:48:48 EST" name="launchBrowser" finished-at="2024-02-26T18:48:53 EST" duration-ms="5652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateGiftCertificateBtnClickTest()[pri:0, instance:com.naveenautomation.tests.GiftCertificatePageTest@550dbc7a]" started-at="2024-02-26T18:48:53 EST" name="validateGiftCertificateBtnClickTest" finished-at="2024-02-26T18:48:53 EST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGiftCertificateBtnClickTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenautomation.tests.GiftCertificatePageTest@550dbc7a]" started-at="2024-02-26T18:48:53 EST" name="closeBrowser" finished-at="2024-02-26T18:48:53 EST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.naveenautomation.tests.GiftCertificatePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
