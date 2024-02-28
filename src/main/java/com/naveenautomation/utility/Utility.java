@@ -1,4 +1,4 @@
-package com.naveenautomation.utility;
+package com.naveenAutomation.utility;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import com.naveenautomation.dateformat.DateFormat;
-import com.naveenautomation.testbase.TestBase;
+import com.naveenAutomation.dateformat.DateFormat;
+import com.naveenAutomation.testbase.TestBase;
 
 public class Utility extends TestBase {
 

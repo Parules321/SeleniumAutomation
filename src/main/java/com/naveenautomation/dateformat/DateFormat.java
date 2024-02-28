@@ -1,4 +1,4 @@
-package com.naveenautomation.dateformat;
+package com.naveenAutomation.dateformat;
 
 public enum DateFormat {
 	LONG_DATE("yyyy.MM.dd.HH.mm.ss"), 

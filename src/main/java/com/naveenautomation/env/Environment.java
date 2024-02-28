@@ -1,4 +1,4 @@
-package com.naveenautomation.env;
+package com.naveenAutomation.env;
 
 public enum Environment {
 	DEV("https://naveenautomationlabsdev.com/opencart/index.php?route=account/register"),

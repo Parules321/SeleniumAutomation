@@ -1,10 +1,10 @@
-package com.naveenautomation.pages;
+package com.naveenAutomation.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.naveenautomation.testbase.TestBase;
+import com.naveenAutomation.testbase.TestBase;
 
 public class GiftCertificatePage extends TestBase {
 
@@ -40,43 +40,42 @@ public class GiftCertificatePage extends TestBase {
 	@FindBy(css = "#content h1")
 	WebElement giftPageHeader;
 
-	
 	public String getGiftPageHeaderText() {
 		return giftPageHeader.getText();
-		
+
 	}
-	
+
 	private void enterRecipientName(String recipientName) {
-		recipientNameInputBox.sendKeys(recipientName);	
+		recipientNameInputBox.sendKeys(recipientName);
 	}
-	
+
 	private void enterRecipientEmail(String recipientEmail) {
-		recipientEmailInputBox.sendKeys(recipientEmail);	
+		recipientEmailInputBox.sendKeys(recipientEmail);
 	}
-	
+
 	private void clickVoucherThemeBtn() {
 		voucherThemeRadioBtn.click();
 	}
-	
+
 	private void enterMessageForRecipient(String messageForRecipient) {
 		msgInputBox.sendKeys(messageForRecipient);
 	}
-	
+
 	private void enterAmount(String amount) {
-		//amountInputBox.clear();
+		amountInputBox.clear();
 		amountInputBox.sendKeys(amount);
 	}
-	
+
 	private void clickAgreeCheckBox() {
 		agreeCheckBox.click();
 	}
-	
+
 	private void clickSubmitBtn() {
-		amountInputBox.clear();
 		continueBtn.submit();
 	}
-	
-	public void submitGiftPurchaseDetails(String recipientName, String recipientEmail,  String messageForRecipient, String amount) {
+
+	public void submitGiftPurchaseDetails(String recipientName, String recipientEmail, String messageForRecipient,
+			String amount) {
 		enterRecipientName(recipientName);
 		enterRecipientEmail(recipientEmail);
 		clickVoucherThemeBtn();
@@ -84,12 +83,10 @@ public class GiftCertificatePage extends TestBase {
 		enterAmount(amount);
 		clickAgreeCheckBox();
 		clickSubmitBtn();
-		
 	}
-	
+
 	public String getGiftPurchaseConfirmationText() {
 		return giftPurchaseConfirmationText.getText();
-		
 	}
 
 }

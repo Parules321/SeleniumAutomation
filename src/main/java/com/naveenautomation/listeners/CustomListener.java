@@ -1,10 +1,10 @@
-package com.naveenautomation.listeners;
+package com.naveenAutomation.listeners;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.naveenautomation.utility.Utility;
+import com.naveenAutomation.utility.Utility;
 
 public class CustomListener implements ITestListener {
 

@@ -1,4 +1,4 @@
-package com.naveenautomation.browsers;
+package com.naveenAutomation.browsers;
 
 public enum Browsers {
 	CHROME, 

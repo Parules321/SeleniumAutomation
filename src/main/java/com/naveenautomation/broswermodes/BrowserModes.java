@@ -1,4 +1,4 @@
-package com.naveenautomation.broswermodes;
+package com.naveenAutomation.broswermodes;
 
 public enum BrowserModes {
 	NORMAL, 
